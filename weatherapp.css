@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/mesmerizing-view-silhouette-tree-savanna-plains-sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin: 5rem 27rem; */
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.weather-form{
+    width: 30%;
+    height: auto;
+    background-color: #efbd78;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    row-gap: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.label h3{
+    width: 100%;
+    height: auto;
+}
+
+.input{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0.2rem 0.2rem;
+    border-radius: 04rem;
+}
+
+.input input{
+    width: 70%;
+    height: auto;
+    padding: 0.2rem 0 0.2rem 0rem;
+    /* border-radius: 1rem; */
+    border: none;
+    outline: none;
+} 
+.input button{
+    width: fit-content;
+    height: auto;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+    background-color: #070201;
+    color: #ffffff;
+    cursor: pointer;
+}
+.input button:hover{
+    background-color: #e38500;
+    color: #000000;
+}
+
+.display1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 0.3rem;
+}
+
+.city{
+    width: 20%;
+    height:auto;
+    background-color: rgba(239, 176, 48, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+}
+
+.display2{
+    width: 40%;
+    height: auto;
+    background-color: rgba(245, 220, 185, 0.2);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+    color: #d6d3d0;
+    border-radius: 0.4rem;
+    display: none;
+}
+
+.timezone{
+    width: 100%;
+    height: auto;
+}
+
+.weather{
+    width: 100%;
+    height: auto;
+}
+
+.wind-hum-vis{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 1rem;
+}
+
+.wind{
+    width: 33.3%;
+    height: auto;
+}
+
+.humidity{
+    width: 33.3%;
+    height: auto;
+}
+
+.visibility{
+    width: 33.3%;
+    height: auto;
+}
+
+.pres-temp-feels{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 1rem;
+}
+
+.pressure{
+    width: 33.3%;
+    height: auto;
+}
+
+.temperature{
+    width: 33.3%;
+    height: auto;
+}
+
+.feels{
+    width: 33.3%;
+    height: auto;
+}
